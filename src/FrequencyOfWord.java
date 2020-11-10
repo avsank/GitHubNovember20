@@ -8,5 +8,6 @@ public class FrequencyOfWord {
             count++;
         }
         System.out.println(count);
+        // result
     }
 }
