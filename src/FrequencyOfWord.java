@@ -9,5 +9,6 @@ public class FrequencyOfWord {
         }
         System.out.println(count);
         // result
+        // Additional comments need to be added
     }
 }
