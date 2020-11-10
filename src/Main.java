@@ -1,5 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
+
+        String str = "abba";
+        char ch = 'a';
+        int count = 0;
+
+        while(str.contains( ""+ch)){
+            str = str.replaceFirst(""+ch, "");
+            count++;
+            }
+        System.out.println(count); //a2
+        }
+
+
     }
-}
+
